@@ -1,3 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-    background-color: rgb(31, 16, 16);
+    background-color: white;
+}
+
+#hm1 {
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hm1:hover {
+    background-color: rgb(44, 113, 134);
+    filter: brightness(800%);
+}
+
+button {
+    border: none;
+    box-shadow: 10px;
+}
+
+.nav {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.mainHead {
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+}
+
+.lorem {
+    border: 2px solid blue;
+    padding: 50px 25% 50px 25%;
+    min-width: 30%;
+    min-height: 100%;
+    position: relative;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
 }
